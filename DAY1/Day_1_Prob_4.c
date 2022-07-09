@@ -8,7 +8,7 @@ int main()
     int x,r=0;
     printf("enter 6 digits\n"); 
     scanf("%d",&x);           //  Read the 6-digit number from user
-    while(x>0){
+    while(x>0){                 // loop runs when number is greater than 0 if it equals 0 exit the loop
     r=r*10+x%10;               // By using this we are shifting ten's place to hundread's place
     x=x/10;                     // By dividing number it remove 1 digit 
     }
