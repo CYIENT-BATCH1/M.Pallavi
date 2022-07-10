@@ -1,0 +1,8 @@
+Write a program to Implement ”Selection Sort” using Recursion for given elements (Number elements will vary, so make it as configurable item)
+How Selection sort works is explained below.
+ALGORITHM:
+         *Read the array elements
+         *we compare the first element with all the elements in an array
+         *If second element is less than the first then swap.
+         *similary repeat the process,compare second element with all the elements in an array.
+         *Finally the ascending array will print
