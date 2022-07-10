@@ -1,0 +1,9 @@
+Find empty strings in an array of strings (Array of strings will be given as input to program) and print the position of array where empty string is present.
+And replace the empty string array element as “CYIENT”. 
+
+ALGORITHM:
+          *Initialize the array of strings 
+          *Find the empty string in an array of string
+          *Replace empty string with CYIENT.
+          *Print the position of the empty string.
+          
