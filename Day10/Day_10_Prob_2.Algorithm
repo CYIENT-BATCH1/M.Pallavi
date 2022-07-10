@@ -1,0 +1,12 @@
+Write a function to store "G_Str_SteeringAngle_sint" to "G_Msg_SteeringInformation_Byte" as shown below.
+signed int G_Str_SteeringAngle_sint = -60;
+unsigned char G_Msg_SteeringInformation_Byte[3u];"
+ALGORITHM:
+         *Read the signed int value which they given.
+         *Convert that decimal value to binary form.
+         *print the Binary form.
+         *The binary form is stored in the unsigned char G_Msg_SteeringInformation_Byte[3u].
+         *10th and 11th bit will be stored in an array of 0th element and remaining as 0.
+         *2nd to 9th bits will be stored in 1st element of array
+         *0th and 1st bit will be  stored at 0th element in an array.
+
