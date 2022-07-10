@@ -1,5 +1,5 @@
 4)EVEN AND ODD NUMBER USING CONDITIONAL OPERATOR
-*******************************************************************************/
+
 #include <stdio.h>
 int main()
 {
