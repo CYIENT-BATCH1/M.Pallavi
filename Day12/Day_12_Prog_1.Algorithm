@@ -1,0 +1,7 @@
+ Find common elements in three sorted arrays, 3 array values are given as input to program.
+ 
+ ALGORITHM:
+          *Reading three arrays
+          *By comparing two arrays we are searching for common element
+          *For the common element and 3rd array we are seaching the element 
+          *Finally printing common element in three arrays.
