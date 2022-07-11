@@ -1,0 +1,7 @@
+I). Write program to set (1) bits CIS, C2OUT, C1OUT in register “CMCON” if bits CHS3, CHS2, CHS1 bits are set to 0x06 in register “ADCON0”
+
+ALGORITHM:
+	*Read the ADCONO and CMCON register Values 
+	*If ADCONO value is equal to 0x06 then set the bits in CIS,C2OUT,C1OUT in CMCON register 
+	*To set the bits position 3,6,7 we are using |(OR),CMCON|(1<<pos)
+  *Finally it will set the bits without disturbing other bits.
