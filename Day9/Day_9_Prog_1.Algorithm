@@ -1,0 +1,9 @@
+I). Set the register SSPSTAT value such a way that bit CKE, P and S bit are cleared (0),
+without disturbing the other bits.
+II). Find out the value of UA, BF, SMP bits in SSPSTAT register if the value of the register is 0x55
+
+ALGORITHM:
+1)	*In SSPSTAT register value as OX3f and that register CKE,P and S bits should be cleared
+	  *To clear the bits register&~((1<<3)|(1<<4)|(1<<6)),here 3,4,5 are the positions to clear
+    *In SSPSTAT register we are taking different value as 0x55 and find the value present in UA,BF,SMP are at the postion of 0,1,and 7 
+    *To find these values we should right shift position and with 1 to get value present in particular position.
