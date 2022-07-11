@@ -1,0 +1,11 @@
+1. Write a program to convert a data stream from Little Endian to Big 
+Endian (you can take any 8 bit value or use 0b110101110)?
+ 
+ 
+ALGORITHM:
+	* Initialize the value for a variable.
+	* To convert little endane to big endane we are using bitwise operators 
+  * By using the right shift,left shift,AND,OR operators
+  * First 2 bits we will shift with 24 times and for next 2 bits with shift by 8 times.
+  * Similarly repeat another time to swap another four bits. 
+  * finally variable will be swapped.
