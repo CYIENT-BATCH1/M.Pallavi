@@ -1,0 +1,21 @@
+Assume that we have a car with 8 seats, and we are monitoring 8 seat belt status in a variable “G_Msg_switchstatus_Byte[]” as shown in pic1. 
+Each switch status is combination of 2 bits as shown in pic2. Write status of switches into variable “G_Msg_switchstatus_Byte[]” as below.
+SWITCH1, SWITCH7 status is “faulty type 1
+switch”, SWITCH2, SWITCH5 status is ”switch unbuckle”
+SWITCH3, SWITCH6 status is “switch buckle”, 
+SWITCH4, SWITCH0 status is “faulty type 2 in switch”  without disturbing the other bits.
+Switch status valueMeaning
+00Fault type 1 in switch
+01switch is buckle
+10switch is unbuckle
+11Fault type 2 in switch
+
+
+ALGORITHM: 
+	       *Read the register value as 0X00
+	       *In this we have a four conditions if we gave 0 it is faulty type 1, similarly 1,2 and 3 are buckle,unbuckle and faulty type 2.
+         *Based on the image we are setting the bits with out disturbing other bits
+       	 *For example we taken faulty type 1,in reg0 we have to set the bits in position 0,1 and in reg2 4 and 5 bits to be set
+	       *Remaings bits should be 0 and reg1 as 0x00 since there is no faulty type in reg1.
+	       *Similarly,same process for buckle,unbuckle and faulty type by seeing image where tO set the bit position.
+         *Finally it will print the values based on switch status value.
