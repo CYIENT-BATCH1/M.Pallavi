@@ -1,0 +1,9 @@
+Write program to clear(0) bits CIS, CM2, CM1, CM0 in register “CMCON” if bits
+CHS3, CHS2, CHS1, CHS0 bits are set to 0x07 in register “ADCON0”
+
+
+ALGORITHM:
+	*Read the ADCONO and CMCON register Values 
+	*If ADCONO value is equal to 0x07 then the bits will be cleared in CMCON register
+	*In CMCON register CIS, CM2, CM1, CM0 bits should be cleared
+	*To clear the bits we are using & and ~
