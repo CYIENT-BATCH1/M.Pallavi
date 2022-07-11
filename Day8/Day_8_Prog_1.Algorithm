@@ -1,0 +1,9 @@
+Realize a function which has 2 arguments and 1 return value. Argument 1 is Byte value, Argument 2 is bit position. 
+Function has to flip the bit position (as per argument 2 ) in argument 1 byte value and return complete byte value.
+
+
+ALGORITHM:
+	*Read the function variables with passing two arguements
+	*First is byte and second one is bit position to flip
+	*Logical operator like ex-or(^) to flip the bit position based on the arguement 2.
+  *It will return the byte value after flip the bit.
