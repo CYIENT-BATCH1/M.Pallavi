@@ -1,0 +1,11 @@
+Write a program in C to sort an array using Pointer. The sample output must be as below
+ 
+ 
+ ALGORITHM:
+ 
+	       *We are creating function with two arguements first is size and second is the pointer
+         *By using 2 for loop with 2 variables we are checking the condition
+       	 *If 1st element greater than next element then we are swapping the variables by temp.
+         *similarly we will swap the total array by checking condition.
+	       *In main function we are calling that funtion name with two arguements. 
+         *Finally it will sort the array.
